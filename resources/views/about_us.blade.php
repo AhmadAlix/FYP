@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Us</title>
 
     @vite(['resources/css/bootstrap.min.css'])
 </head>
@@ -21,21 +21,23 @@
                     <div class="col-lg-7 wow bounceInUp" data-wow-delay="0.3s">
                         <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">About Us</small>
                         <h1 class="display-5 mb-4">Trusted By 200 + satisfied clients</h1>
-                        <p class="mb-4">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore eit esdioilore magna aliqua. Ut enim ad minim veniam, 
-                            quis nostrud exercitation ullaemco laboeeiris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                            dolor iesdein reprehendeerit in voluptate velit esse cillum dolore.</p>
+                        <p class="mb-4">The project aims to empower job seekers with a versatile tool that enhances their employability and job search outcomes, bridging the gap between their qualifications and career aspirations.</p>
                         <div class="row g-4 text-dark mb-5">
                             <div class="col-sm-6">
-                                <i class="fas fa-share text-primary me-2"></i>Fresh and Fast food Delivery
+                                <i class="fas fa-share text-primary me-2"></i>CV Builder with Multiple Templates
+
                             </div>
                             <div class="col-sm-6">
-                                <i class="fas fa-share text-primary me-2"></i>24/7 Customer Support
+                                <i class="fas fa-share text-primary me-2"></i>AI-Driven CV Analysis
+
                             </div>
                             <div class="col-sm-6">
-                                <i class="fas fa-share text-primary me-2"></i>Easy Customization Options
+                                <i class="fas fa-share text-primary me-2"></i>Job Search and Recommendation
+
                             </div>
                             <div class="col-sm-6">
-                                <i class="fas fa-share text-primary me-2"></i>Delicious Deals for Delicious Meals
+                                <i class="fas fa-share text-primary me-2"></i>Dynamic Mock Interview Generation
+
                             </div>
                         </div>
                         <a href="" class="btn btn-primary py-3 px-5 rounded-pill">About Us<i class="fas fa-arrow-right ps-2"></i></a>

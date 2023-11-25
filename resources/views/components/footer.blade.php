@@ -6,7 +6,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-item">
                             <h1 class="text-primary">Career<span class="text-dark">Catalyst</span></h1>
-                            <p class="lh-lg mb-4">There cursus massa at urnaaculis estieSed aliquamellus vitae ultrs condmentum leo massamollis its estiegittis miristum.</p>
+                            <p class="lh-lg mb-4">Bridging Your CV to Success with AI-Powered Insights.</p>
                             <div class="footer-icon d-flex">
                                 <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-twitter"></i></a>
@@ -19,10 +19,10 @@
                         <div class="footer-item">
                             <h4 class="mb-4">Special Facilities</h4>
                             <div class="d-flex flex-column align-items-start">
-                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Cheese Burger</a>
-                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Sandwich</a>
-                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Panner Burger</a>
-                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Special Sweets</a>
+                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Make CV</a>
+                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Upload CV</a>
+                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Mock Interview</a>
+                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Job Recommendation</a>
                             </div>
                         </div>
                     </div>
@@ -30,10 +30,10 @@
                         <div class="footer-item">
                             <h4 class="mb-4">Contact Us</h4>
                             <div class="d-flex flex-column align-items-start">
-                                <p><i class="fa fa-map-marker-alt text-primary me-2"></i> 123 Street, New York, USA</p>
-                                <p><i class="fa fa-phone-alt text-primary me-2"></i> (+012) 3456 7890 123</p>
-                                <p><i class="fas fa-envelope text-primary me-2"></i> info@example.com</p>
-                                <p><i class="fa fa-clock text-primary me-2"></i> 26/7 Hours Service</p>
+                                <p><i class="fa fa-map-marker-alt text-primary me-2"></i> Riphah Institute, Islamabad, Pakistan</p>
+                                <p><i class="fa fa-phone-alt text-primary me-2"></i> (+92) 313-5691495</p>
+                                <p><i class="fas fa-envelope text-primary me-2"></i> ahmedalix227@gmail.com</p>
+                                <p><i class="fa fa-clock text-primary me-2"></i> 24/7 Hours Service</p>
                             </div>
                         </div>
                     </div>

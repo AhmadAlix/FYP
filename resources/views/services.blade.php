@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Service</title>
 
     @vite(['resources/css/bootstrap.min.css'])
 </head>
@@ -24,8 +24,8 @@
                             <div class="service-content d-flex align-items-center justify-content-center p-4">
                                 <div class="service-content-icon text-center">
                                     <i class="fas fa-cheese fa-7x text-primary mb-4"></i>
-                                    <h4 class="mb-3">Wedding Services</h4>
-                                    <p class="mb-4">Contrary to popular belief, ipsum is not simply random.</p>
+                                    <h4 class="mb-3">Resume Maker</h4>
+                                    <p class="mb-4">Resume Analysis</p>
                                     <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
                                 </div>
                             </div>
@@ -36,8 +36,8 @@
                             <div class="service-content d-flex align-items-center justify-content-center p-4">
                                 <div class="service-content-icon text-center">
                                     <i class="fas fa-pizza-slice fa-7x text-primary mb-4"></i>
-                                    <h4 class="mb-3">Corporate Catering</h4>
-                                    <p class="mb-4">Contrary to popular belief, ipsum is not simply random.</p>
+                                    <h4 class="mb-3">Mock Interview</h4>
+                                    <p class="mb-4">Job Recommandation</p>
                                     <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
                                 </div>
                             </div>
@@ -48,8 +48,8 @@
                             <div class="service-content d-flex align-items-center justify-content-center p-4">
                                 <div class="service-content-icon text-center">
                                     <i class="fas fa-hotdog fa-7x text-primary mb-4"></i>
-                                    <h4 class="mb-3">Cocktail Reception</h4>
-                                    <p class="mb-4">Contrary to popular belief, ipsum is not simply random.</p>
+                                    <h4 class="mb-3">Upload Resume</h4>
+                                    <p class="mb-4">Resume Analysis</p>
                                     <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
                                 </div>
                             </div>
@@ -60,8 +60,8 @@
                             <div class="service-content d-flex align-items-center justify-content-center p-4">
                                 <div class="service-content-icon text-center">
                                     <i class="fas fa-hamburger fa-7x text-primary mb-4"></i>
-                                    <h4 class="mb-3">Bento Catering</h4>
-                                    <p class="mb-4">Contrary to popular belief, ipsum is not simply random.</p>
+                                    <h4 class="mb-3">Mock Interview</h4>
+                                    <p class="mb-4">Job Recommandation</p>
                                     <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
                                 </div>
                             </div>
