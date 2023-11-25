@@ -1,11 +1,11 @@
 
         <!-- Footer Start -->
-        <div class="container-fluid footer mt-20 py-6 my-6 mb-20 bg-light wow bounceInUp" data-wow-delay="0.1s">
+        <div class="container-fluid footer mt-20 py-6 px-10 my-6 mb-20 bg-light wow bounceInUp" data-wow-delay="0.1s">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-item">
-                            <h1 class="text-primary">Cater<span class="text-dark">Serv</span></h1>
+                            <h1 class="text-primary">Career<span class="text-dark">Catalyst</span></h1>
                             <p class="lh-lg mb-4">There cursus massa at urnaaculis estieSed aliquamellus vitae ultrs condmentum leo massamollis its estiegittis miristum.</p>
                             <div class="footer-icon d-flex">
                                 <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>

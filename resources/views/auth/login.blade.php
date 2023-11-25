@@ -1,4 +1,9 @@
 <x-guest-layout>
+<div class="align-items-center">
+                <a href="/">
+                    <img src="{{asset('logo.png')}}" class="w-25 h-20 fill-current text-gray-500" alt="">
+                </a>
+            </div>
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 

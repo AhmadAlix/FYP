@@ -37,26 +37,6 @@
 
     @include('components.header')
 
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control bg-transparent p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal Search End -->
-
-
         <!-- Hero Start -->
         <div class="container-fluid bg-light py-6 my-6 mt-0">
             <div class="container">
@@ -65,10 +45,10 @@
                         <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-4 animated bounceInDown">Welcome to CaterServ</small>
                         <h1 class="display-1 mb-4 animated bounceInDown">Book <span class="text-primary">Cater</span>Serv For Your Dream Event</h1>
                         <a href="resume" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft">Make CV</a>
-                        <a href="" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 animated bounceInLeft">Upload CV</a>
+                        <a href="upload" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 animated bounceInLeft">Upload CV</a>
                     </div>
                     <div class="col-lg-5 col-md-12">
-                        <img src="img/hero.png" class="img-fluid rounded animated zoomIn" alt="">
+                        <img src="{{asset('logo.png')}}" class="img-fluid rounded animated zoomIn" alt="">
                     </div>
                 </div>
             </div>
@@ -77,7 +57,7 @@
 
 
         <!-- Fact Start-->
-        <div class="container-fluid faqt py-6">
+        <div class="container-fluid faqt mb-20 py-6">
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-7">
@@ -86,21 +66,21 @@
                                 <div class="faqt-item bg-primary rounded p-4 text-center">
                                     <i class="fas fa-users fa-4x mb-4 text-white"></i>
                                     <h1 class="display-4 fw-bold" data-toggle="counter-up">689</h1>
-                                    <p class="text-dark text-uppercase fw-bold mb-0">Happy Customers</p>
+                                    <p class="text-dark text-uppercase fw-bold mb-0">Users</p>
                                 </div>
                             </div>
                             <div class="col-sm-4 wow bounceInUp" data-wow-delay="0.5s">
                                 <div class="faqt-item bg-primary rounded p-4 text-center">
                                     <i class="fas fa-users-cog fa-4x mb-4 text-white"></i>
                                     <h1 class="display-4 fw-bold" data-toggle="counter-up">107</h1>
-                                    <p class="text-dark text-uppercase fw-bold mb-0">Expert Chefs</p>
+                                    <p class="text-dark text-uppercase fw-bold mb-0">Expert</p>
                                 </div>
                             </div>
                             <div class="col-sm-4 wow bounceInUp" data-wow-delay="0.7s">
                                 <div class="faqt-item bg-primary rounded p-4 text-center">
                                     <i class="fas fa-check fa-4x mb-4 text-white"></i>
                                     <h1 class="display-4 fw-bold" data-toggle="counter-up">253</h1>
-                                    <p class="text-dark text-uppercase fw-bold mb-0">Events Complete</p>
+                                    <p class="text-dark text-uppercase fw-bold mb-0">Resume Downloaded</p>
                                 </div>
                             </div>
                         </div>
@@ -115,52 +95,29 @@
                 </div>
             </div>
         </div>
-        <!-- Modal Video -->
-        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <!-- 16:9 aspect ratio -->
-                        <div class="ratio ratio-16x9">
-                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                                allow="autoplay"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Fact End -->
+        
 
         @include('components.footer')
 
 
         <!-- Copyright Start -->
-        <div class="container-fluid copyright bg-dark py-4">
+        <div class="container-fluid mt-10 copyright bg-dark py-4">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Career Catalyst </a>, All right reserved.</span>
                     </div>
                     <div class="col-md-6 my-auto text-center text-md-end text-white">
                         <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                         <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                         <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
+                        Designed By <a class="border-bottom" href="">Ahmad Ali</a>            
                     </div>
                 </div>
             </div>
         </div>
         <!-- Copyright End -->
 
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
-
-        
         <!-- JavaScript Libraries -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>

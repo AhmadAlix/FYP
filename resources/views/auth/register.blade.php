@@ -1,4 +1,10 @@
 <x-guest-layout>
+
+<div class="align-items-center">
+                <a href="/">
+                    <img src="{{asset('logo.png')}}" class="w-25 h-20 fill-current text-gray-500" alt="">
+                </a>
+            </div>
     <form method="POST" action="{{ route('register') }}">
         @csrf
 
