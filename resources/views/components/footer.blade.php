@@ -2,7 +2,7 @@
         <!-- Footer Start -->
         <div class="container-fluid footer mt-20 py-6 px-10 my-6 mb-20 bg-light wow bounceInUp" data-wow-delay="0.1s">
             <div class="container">
-                <div class="row">
+                <div class="row mt-20">
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-item">
                             <h1 class="text-primary">Career<span class="text-dark">Catalyst</span></h1>

@@ -39,7 +39,7 @@
 
     <!--  -->
         <!-- Hero Start -->
-        <div class="container-fluid bg-light py-6 my-6 mt-0">
+        <div class="container-fluid bg-light py-6 mt-0">
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-7 col-md-12">
@@ -58,7 +58,7 @@
 
 
         <!-- Fact Start-->
-        <div class="container-fluid faqt mb-20 py-6">
+        <div class="container-fluid faqt py-6">
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-7">
@@ -81,7 +81,7 @@
                                 <div class="faqt-item bg-primary rounded p-4 text-center">
                                     <i class="fas fa-check fa-4x mb-4 text-white"></i>
                                     <h1 class="display-4 fw-bold" data-toggle="counter-up">253</h1>
-                                    <p class="text-dark text-uppercase fw-bold mb-0">Resume Downloaded</p>
+                                    <p class="text-dark text-uppercase fw-bold mb-0">Resumes</p>
                                 </div>
                             </div>
                         </div>
