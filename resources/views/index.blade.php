@@ -74,14 +74,14 @@
                                 <div class="faqt-item bg-primary rounded p-4 text-center">
                                     <i class="fas fa-users-cog fa-4x mb-4 text-white"></i>
                                     <h1 class="display-4 fw-bold" data-toggle="counter-up">107</h1>
-                                    <p class="text-dark text-uppercase fw-bold mb-0">Expert</p>
+                                    <p class="text-dark text-uppercase fw-bold mb-0">Resume Downloads</p>
                                 </div>
                             </div>
                             <div class="col-sm-4 wow bounceInUp" data-wow-delay="0.7s">
                                 <div class="faqt-item bg-primary rounded p-4 text-center">
                                     <i class="fas fa-check fa-4x mb-4 text-white"></i>
                                     <h1 class="display-4 fw-bold" data-toggle="counter-up">253</h1>
-                                    <p class="text-dark text-uppercase fw-bold mb-0">Resumes</p>
+                                    <p class="text-dark text-uppercase fw-bold mb-0">Resume Uploads</p>
                                 </div>
                             </div>
                         </div>
