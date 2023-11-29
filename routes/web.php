@@ -38,8 +38,11 @@ Route::get('/upload', function () {
 })->middleware(['auth', 'verified'])->name('upload');
 
 Route::get('/resume', function () {
-    return view('makeResume');
-})->middleware(['auth', 'verified'])->name('resume');
+    return view('resumeBuilder');
+})->name('resume');
+// Route::get('/resume', function () {
+//     return view('makeResume');
+// })->middleware(['auth', 'verified'])->name('resume');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

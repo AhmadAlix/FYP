@@ -1,0 +1,64 @@
+#cv-form{
+    background-color:black;
+    animation: slideIn 4s ease-in-out;
+    
+}
+@keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+#cv-form h1{
+color: aliceblue;
+animation: slideIn 4s ease-in-out;
+}
+#cv-form h3{
+    color: aliceblue;
+    animation: slideIn 4s ease-in-out;
+    }
+#cv-form label{
+    color: aliceblue;
+    font-size: large;
+    animation: slideIn 4s ease-in-out;
+    padding-top: 10px;
+    }
+#cv-form .secondHeading{
+color: aliceblue;
+font-size: 30px;
+animation: slideIn 4s ease-in-out;
+    }
+    #cv-form button{
+        color: black;
+        background-color: aliceblue;
+        
+    }
+    #cv-form button:hover{
+    background-color: #2c3e50;
+  color: #ffffff;
+    }
+    #cv-form textarea:focus{
+        outline: none; /* Remove default focus outline (optional) */
+  border-color: #fff; /* White border color on focus */
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.9);
+    }
+    #cv-form input:focus{
+        outline: none; /* Remove default focus outline (optional) */
+  border-color: #fff; /* White border color on focus */
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.9);
+    }
+#cv-template{
+    display: none;
+}
+.myimg{
+    border-radius: 50%;
+    width: 300px;
+}
+.background{
+    background-color:cornflowerblue;
+}
