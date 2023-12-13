@@ -38,7 +38,8 @@
                         <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-4 animated bounceInDown">Welcome to Career Catalyst</small>
                         <h1 class="display-1 mb-4 animated bounceInDown">Bridging <span class="text-primary">Your</span>CV to Success with AI-Powered Insights</h1>
                         <a href="resume" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft">Make CV</a>
-                        <a href="upload" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 animated bounceInLeft">Upload CV</a>
+                        <a href="" onClick="openSelect('#upload')" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 animated bounceInLeft">Upload CV</a>
+                        <input type="file" name="upload" id="upload" style="display: none;">
                     </div>
                     <div class="col-lg-5 col-md-12">
                         <img src="{{asset('logo.png')}}" class="img-fluid rounded animated zoomIn" alt="">
@@ -118,7 +119,11 @@
         <script src="lib/lightbox/js/lightbox.min.js"></script>
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
+        <script type="text/javascript">                            
+            function openSelect(file)
+            {
+            $(file).trigger('click');
+            }
+        </script>
     </body>
 </html>

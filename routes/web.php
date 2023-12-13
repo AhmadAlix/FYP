@@ -45,7 +45,7 @@ Route::get('/resume', function () {
 // })->middleware(['auth', 'verified'])->name('resume');
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('home');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
